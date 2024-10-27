@@ -1,0 +1,7 @@
+Question 4:
+If you use the same PreAuthorize configuration on each method in a class, how can you
+make the annotations cleaner?
+
+Answer: 
+Let's say we are having @PreAuthorized("SOME_KEY") on each method.
+To make the annotations cleaner, we can add @PreAuthorized("SOME_KEY") at the class annotations.
